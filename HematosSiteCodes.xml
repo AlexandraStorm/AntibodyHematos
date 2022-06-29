@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<SiteCodeList>
+	<City>Sheffield</City>
+		<SiteCode>D1</SiteCode>
+	<City>Birmingham</City>
+		<SiteCode>H1</SiteCode>
+	<City>Newcastle</City>
+		<SiteCode>N1</SiteCode>
+	<City>Tooting</City>
+		<SiteCode>P1</SiteCode>
+	<City>Fulton</City>
+		<SiteCode>T1</SiteCode>
+	<City>Colindale</City>
+		<SiteCode>W1</SiteCode>
+</SiteCodeList>

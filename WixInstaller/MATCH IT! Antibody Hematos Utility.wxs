@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="f9d06b7e-ba14-4683-8c71-ee74540d2185" Name="MATCH IT! Antibody Hematos Utility" Language="1033" Codepage="Windows-1252" Version="1.6.0" UpgradeCode="b522a782-e684-486a-be2e-612e73b8abfd" Manufacturer="Immucor, Inc.">
+    <Package InstallerVersion="200" Compressed="yes" Platform="x86" SummaryCodepage="Windows-1252" Languages="1033" InstallScope="perMachine" />
+    <Media Id="1" Cabinet="MATCHITAntibody_Hematos_Utility.cab" EmbedCab="yes" />
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder" Name="ProgramFilesFolder">
+        <Directory Id="ProgramFilesFolder.LIFECODES" Name="LIFECODES">
+          <Directory Id="INSTALLDIR" Name="MATCH IT! Antibody Hematos Utility">
+
+            <Component Id="Component._...evExpress.BonusSkins.v19.2.dll" Guid="f9d06b7e-ba14-4683-8c71-ee7463ea2be3">
+              <File Id="_...evExpress.BonusSkins.v19.2.dll" Source="PublishedFiles\DevExpress.BonusSkins.v19.2.dll" />
+            </Component>
+
+            <Component Id="Component.DevExpress.Data.v19.2.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74c70f20bf">
+              <File Id="DevExpress.Data.v19.2.dll" Source="PublishedFiles\DevExpress.Data.v19.2.dll" />
+            </Component>
+
+            <Component Id="Component.DevExpress.Images.v19.2.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74a413fcc5">
+              <File Id="DevExpress.Images.v19.2.dll" Source="PublishedFiles\DevExpress.Images.v19.2.dll" />
+            </Component>
+
+            <Component Id="Component._...vExpress.Office.v19.2.Core.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74ec7caffa">
+              <File Id="_...vExpress.Office.v19.2.Core.dll" Source="PublishedFiles\DevExpress.Office.v19.2.Core.dll" />
+            </Component>
+
+            <Component Id="Component.DevExpress.Pdf.v19.2.Core.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74b2ce2f45">
+              <File Id="DevExpress.Pdf.v19.2.Core.dll" Source="PublishedFiles\DevExpress.Pdf.v19.2.Core.dll" />
+            </Component>
+
+            <Component Id="Component._...xpress.Printing.v19.2.Core.dll" Guid="f9d06b7e-ba14-4683-8c71-ee746695baa9">
+              <File Id="_...xpress.Printing.v19.2.Core.dll" Source="PublishedFiles\DevExpress.Printing.v19.2.Core.dll" />
+            </Component>
+
+            <Component Id="Component._...xpress.RichEdit.v19.2.Core.dll" Guid="f9d06b7e-ba14-4683-8c71-ee747be524e4">
+              <File Id="_...xpress.RichEdit.v19.2.Core.dll" Source="PublishedFiles\DevExpress.RichEdit.v19.2.Core.dll" />
+            </Component>
+
+            <Component Id="Component._...ress.RichEdit.v19.2.Export.dll" Guid="f9d06b7e-ba14-4683-8c71-ee7488af1230">
+              <File Id="_...ress.RichEdit.v19.2.Export.dll" Source="PublishedFiles\DevExpress.RichEdit.v19.2.Export.dll" />
+            </Component>
+
+            <Component Id="Component._...press.Sparkline.v19.2.Core.dll" Guid="f9d06b7e-ba14-4683-8c71-ee740e7d603b">
+              <File Id="_...press.Sparkline.v19.2.Core.dll" Source="PublishedFiles\DevExpress.Sparkline.v19.2.Core.dll" />
+            </Component>
+
+            <Component Id="Component.DevExpress.Utils.v19.2.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74dba33373">
+              <File Id="DevExpress.Utils.v19.2.dll" Source="PublishedFiles\DevExpress.Utils.v19.2.dll" />
+            </Component>
+
+            <Component Id="Component.DevExpress.XtraBars.v19.2.dll" Guid="f9d06b7e-ba14-4683-8c71-ee749a546b82">
+              <File Id="DevExpress.XtraBars.v19.2.dll" Source="PublishedFiles\DevExpress.XtraBars.v19.2.dll" />
+            </Component>
+
+            <Component Id="Component._...vExpress.XtraEditors.v19.2.dll" Guid="f9d06b7e-ba14-4683-8c71-ee7464adb155">
+              <File Id="_...vExpress.XtraEditors.v19.2.dll" Source="PublishedFiles\DevExpress.XtraEditors.v19.2.dll" />
+            </Component>
+
+            <Component Id="Component.DevExpress.XtraGrid.v19.2.dll" Guid="f9d06b7e-ba14-4683-8c71-ee740f7aafb8">
+              <File Id="DevExpress.XtraGrid.v19.2.dll" Source="PublishedFiles\DevExpress.XtraGrid.v19.2.dll" />
+            </Component>
+
+            <Component Id="Component._...evExpress.XtraLayout.v19.2.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74776a1fa9">
+              <File Id="_...evExpress.XtraLayout.v19.2.dll" Source="PublishedFiles\DevExpress.XtraLayout.v19.2.dll" />
+            </Component>
+
+            <Component Id="Component._...Express.XtraPrinting.v19.2.dll" Guid="f9d06b7e-ba14-4683-8c71-ee741e5b0584">
+              <File Id="_...Express.XtraPrinting.v19.2.dll" Source="PublishedFiles\DevExpress.XtraPrinting.v19.2.dll" />
+            </Component>
+
+            <Component Id="Component._...Express.XtraTreeList.v19.2.dll" Guid="f9d06b7e-ba14-4683-8c71-ee746bfe969d">
+              <File Id="_...Express.XtraTreeList.v19.2.dll" Source="PublishedFiles\DevExpress.XtraTreeList.v19.2.dll" />
+            </Component>
+
+            <Component Id="Component.HematosBO.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74b0c02904">
+              <File Id="HematosBO.dll" Source="PublishedFiles\HematosBO.dll" />
+            </Component>
+
+            <Component Id="Component.HematosDAL.dll" Guid="f9d06b7e-ba14-4683-8c71-ee7411fb7c6c">
+              <File Id="HematosDAL.dll" Source="PublishedFiles\HematosDAL.dll" />
+            </Component>
+
+            <Component Id="Component.HematosDBFacade.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74159407cd">
+              <File Id="HematosDBFacade.dll" Source="PublishedFiles\HematosDBFacade.dll" />
+            </Component>
+
+            <Component Id="Component.HematosPresenter.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74d7b9bbc0">
+              <File Id="HematosPresenter.dll" Source="PublishedFiles\HematosPresenter.dll" />
+            </Component>
+
+            <Component Id="Component.HematosViewModel.dll" Guid="f9d06b7e-ba14-4683-8c71-ee7431a205f7">
+              <File Id="HematosViewModel.dll" Source="PublishedFiles\HematosViewModel.dll" />
+            </Component>
+
+            <Component Id="Component.LumenWorks.Framework.IO.dll" Guid="f9d06b7e-ba14-4683-8c71-ee7488aa67d8">
+              <File Id="LumenWorks.Framework.IO.dll" Source="PublishedFiles\LumenWorks.Framework.IO.dll" />
+            </Component>
+
+            <Component Id="Component._...T__Antibody_Hematos_Export.exe" Guid="f9d06b7e-ba14-4683-8c71-ee741f1c04b9">
+              <File Id="_...T__Antibody_Hematos_Export.exe" Source="PublishedFiles\MATCH IT! Antibody Hematos Export.exe">
+                <Shortcut Id="Shortcut._...T__Antibody_Hematos_Export.exe._...H_IT__Antibody_Hematos_Utility" WorkingDirectory="Shortcut._...T__Antibody_Hematos_Export.exe._...H_IT__Antibody_Hematos_Utility.WorkDir" Directory="ProgramMenuFolder.Lifecodes" Name="MATCH IT! Antibody Hematos Utility.lnk" />
+                <Shortcut Id="Shortcut._...T__Antibody_Hematos_Export.exe._...H_IT__Antibody_Hematos_Utility.1" WorkingDirectory="Shortcut._...T__Antibody_Hematos_Export.exe._...H_IT__Antibody_Hematos_Utility.1.WorkDir" Directory="DesktopFolder" Name="MATCH IT! Antibody Hematos Utility.lnk" />
+              </File>
+
+              <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+                <RegistryValue Value="0" Type="string" KeyPath="yes" />
+              </RegistryKey>
+            </Component>
+
+            <Component Id="Component._...body_Hematos_Export.exe.config" Guid="f9d06b7e-ba14-4683-8c71-ee74d8d595e6">
+              <File Id="_...body_Hematos_Export.exe.config" Source="PublishedFiles\MATCH IT! Antibody Hematos Export.exe.config" />
+            </Component>
+
+            <Component Id="Component._...s.EnterpriseLibrary.Common.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74a7bb890d">
+              <File Id="_...s.EnterpriseLibrary.Common.dll" Source="PublishedFiles\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+            </Component>
+
+            <Component Id="Component._...ces.EnterpriseLibrary.Data.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74f3f98f10">
+              <File Id="_...ces.EnterpriseLibrary.Data.dll" Source="PublishedFiles\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+            </Component>
+
+            <Component Id="Component._...eLibrary.ExceptionHandling.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74bcf3618a">
+              <File Id="_...eLibrary.ExceptionHandling.dll" Source="PublishedFiles\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.dll" />
+            </Component>
+
+            <Component Id="Component._....ExceptionHandling.Logging.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74625f4870">
+              <File Id="_....ExceptionHandling.Logging.dll" Source="PublishedFiles\Microsoft.Practices.EnterpriseLibrary.ExceptionHandling.Logging.dll" />
+            </Component>
+
+            <Component Id="Component._....EnterpriseLibrary.Logging.dll" Guid="f9d06b7e-ba14-4683-8c71-ee7441e90469">
+              <File Id="_....EnterpriseLibrary.Logging.dll" Source="PublishedFiles\Microsoft.Practices.EnterpriseLibrary.Logging.dll" />
+            </Component>
+
+            <Component Id="Component._....Practices.ServiceLocation.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74f24d1a24">
+              <File Id="_....Practices.ServiceLocation.dll" Source="PublishedFiles\Microsoft.Practices.ServiceLocation.dll" />
+            </Component>
+
+            <Component Id="Component.Microsoft.Practices.Unity.dll" Guid="f9d06b7e-ba14-4683-8c71-ee740c933a4a">
+              <File Id="Microsoft.Practices.Unity.dll" Source="PublishedFiles\Microsoft.Practices.Unity.dll" />
+            </Component>
+
+            <Component Id="Component._...actices.Unity.Interception.dll" Guid="f9d06b7e-ba14-4683-8c71-ee744fae6283">
+              <File Id="_...actices.Unity.Interception.dll" Source="PublishedFiles\Microsoft.Practices.Unity.Interception.dll" />
+            </Component>
+
+            <Component Id="Component._...soft.sqlserver.batchparser.dll" Guid="f9d06b7e-ba14-4683-8c71-ee7423d61625">
+              <File Id="_...soft.sqlserver.batchparser.dll" Source="PublishedFiles\microsoft.sqlserver.batchparser.dll" />
+            </Component>
+
+            <Component Id="Component._...qlServer.BatchParserClient.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74f1ff4f6b">
+              <File Id="_...qlServer.BatchParserClient.dll" Source="PublishedFiles\Microsoft.SqlServer.BatchParserClient.dll" />
+            </Component>
+
+            <Component Id="Component._...t.SqlServer.ConnectionInfo.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74bf7b1d96">
+              <File Id="_...t.SqlServer.ConnectionInfo.dll" Source="PublishedFiles\Microsoft.SqlServer.ConnectionInfo.dll" />
+            </Component>
+
+            <Component Id="Component.Microsoft.SqlServer.Dmf.dll" Guid="f9d06b7e-ba14-4683-8c71-ee7419da3e28">
+              <File Id="Microsoft.SqlServer.Dmf.dll" Source="PublishedFiles\Microsoft.SqlServer.Dmf.dll" />
+            </Component>
+
+            <Component Id="Component._...lServer.Management.Sdk.Sfc.dll" Guid="f9d06b7e-ba14-4683-8c71-ee749983bd9c">
+              <File Id="_...lServer.Management.Sdk.Sfc.dll" Source="PublishedFiles\Microsoft.SqlServer.Management.Sdk.Sfc.dll" />
+            </Component>
+
+            <Component Id="Component._...qlServer.ServiceBrokerEnum.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74124038a6">
+              <File Id="_...qlServer.ServiceBrokerEnum.dll" Source="PublishedFiles\Microsoft.SqlServer.ServiceBrokerEnum.dll" />
+            </Component>
+
+            <Component Id="Component.Microsoft.SqlServer.Smo.dll" Guid="f9d06b7e-ba14-4683-8c71-ee748e387c9a">
+              <File Id="Microsoft.SqlServer.Smo.dll" Source="PublishedFiles\Microsoft.SqlServer.Smo.dll" />
+            </Component>
+
+            <Component Id="Component._...t.SqlServer.SqlClrProvider.dll" Guid="f9d06b7e-ba14-4683-8c71-ee7479c9e590">
+              <File Id="_...t.SqlServer.SqlClrProvider.dll" Source="PublishedFiles\Microsoft.SqlServer.SqlClrProvider.dll" />
+            </Component>
+
+            <Component Id="Component._...icrosoft.SqlServer.SqlEnum.dll" Guid="f9d06b7e-ba14-4683-8c71-ee7419c3abfb">
+              <File Id="_...icrosoft.SqlServer.SqlEnum.dll" Source="PublishedFiles\Microsoft.SqlServer.SqlEnum.dll" />
+            </Component>
+
+            <Component Id="Component._...onentModel.DataAnnotations.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74a6b2f9b3">
+              <File Id="_...onentModel.DataAnnotations.dll" Source="PublishedFiles\System.ComponentModel.DataAnnotations.dll" />
+            </Component>
+
+            <Directory Id="INSTALLDIR.de" Name="de">
+
+              <Component Id="Component._...press.Data.v18.2.resources.dll" Guid="f9d06b7e-ba14-4683-8c71-ee746ac174d1">
+                <File Id="_...press.Data.v18.2.resources.dll" Source="PublishedFiles\de\DevExpress.Data.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...ffice.v18.2.Core.resources.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74c7664f38">
+                <File Id="_...ffice.v18.2.Core.resources.dll" Source="PublishedFiles\de\DevExpress.Office.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...s.Pdf.v18.2.Core.resources.dll" Guid="f9d06b7e-ba14-4683-8c71-ee7400f013ee">
+                <File Id="_...s.Pdf.v18.2.Core.resources.dll" Source="PublishedFiles\de\DevExpress.Pdf.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...nting.v18.2.Core.resources.dll" Guid="f9d06b7e-ba14-4683-8c71-ee744d433397">
+                <File Id="_...nting.v18.2.Core.resources.dll" Source="PublishedFiles\de\DevExpress.Printing.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...hEdit.v18.2.Core.resources.dll" Guid="f9d06b7e-ba14-4683-8c71-ee741977a30c">
+                <File Id="_...hEdit.v18.2.Core.resources.dll" Source="PublishedFiles\de\DevExpress.RichEdit.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...kline.v18.2.Core.resources.dll" Guid="f9d06b7e-ba14-4683-8c71-ee748d040bee">
+                <File Id="_...kline.v18.2.Core.resources.dll" Source="PublishedFiles\de\DevExpress.Sparkline.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...ress.Utils.v18.2.resources.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74e800be2d">
+                <File Id="_...ress.Utils.v18.2.resources.dll" Source="PublishedFiles\de\DevExpress.Utils.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...s.XtraBars.v18.2.resources.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74c6f980a3">
+                <File Id="_...s.XtraBars.v18.2.resources.dll" Source="PublishedFiles\de\DevExpress.XtraBars.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...traEditors.v18.2.resources.dll" Guid="f9d06b7e-ba14-4683-8c71-ee7477518cca">
+                <File Id="_...traEditors.v18.2.resources.dll" Source="PublishedFiles\de\DevExpress.XtraEditors.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...s.XtraGrid.v18.2.resources.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74ae1917b7">
+                <File Id="_...s.XtraGrid.v18.2.resources.dll" Source="PublishedFiles\de\DevExpress.XtraGrid.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...XtraLayout.v18.2.resources.dll" Guid="f9d06b7e-ba14-4683-8c71-ee745c747946">
+                <File Id="_...XtraLayout.v18.2.resources.dll" Source="PublishedFiles\de\DevExpress.XtraLayout.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...raPrinting.v18.2.resources.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74dbc7ef7a">
+                <File Id="_...raPrinting.v18.2.resources.dll" Source="PublishedFiles\de\DevExpress.XtraPrinting.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...raTreeList.v18.2.resources.dll" Guid="f9d06b7e-ba14-4683-8c71-ee74472d1b84">
+                <File Id="_...raTreeList.v18.2.resources.dll" Source="PublishedFiles\de\DevExpress.XtraTreeList.v18.2.resources.dll" />
+              </Component>
+
+            </Directory>
+
+            <Directory Id="INSTALLDIR.es" Name="es">
+
+              <Component Id="Component._...press.Data.v18.2.resources.dll.1" Guid="f9d06b7e-ba14-4683-8c71-ee7431eeee6d">
+                <File Id="_...press.Data.v18.2.resources.dll.1" Source="PublishedFiles\es\DevExpress.Data.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...ffice.v18.2.Core.resources.dll.1" Guid="f9d06b7e-ba14-4683-8c71-ee74f1ce98c0">
+                <File Id="_...ffice.v18.2.Core.resources.dll.1" Source="PublishedFiles\es\DevExpress.Office.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...s.Pdf.v18.2.Core.resources.dll.1" Guid="f9d06b7e-ba14-4683-8c71-ee742c80b9d3">
+                <File Id="_...s.Pdf.v18.2.Core.resources.dll.1" Source="PublishedFiles\es\DevExpress.Pdf.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...nting.v18.2.Core.resources.dll.1" Guid="f9d06b7e-ba14-4683-8c71-ee74c51e04fa">
+                <File Id="_...nting.v18.2.Core.resources.dll.1" Source="PublishedFiles\es\DevExpress.Printing.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...hEdit.v18.2.Core.resources.dll.1" Guid="f9d06b7e-ba14-4683-8c71-ee743b1e9642">
+                <File Id="_...hEdit.v18.2.Core.resources.dll.1" Source="PublishedFiles\es\DevExpress.RichEdit.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...kline.v18.2.Core.resources.dll.1" Guid="f9d06b7e-ba14-4683-8c71-ee7405e0dc51">
+                <File Id="_...kline.v18.2.Core.resources.dll.1" Source="PublishedFiles\es\DevExpress.Sparkline.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...ress.Utils.v18.2.resources.dll.1" Guid="f9d06b7e-ba14-4683-8c71-ee74f810234d">
+                <File Id="_...ress.Utils.v18.2.resources.dll.1" Source="PublishedFiles\es\DevExpress.Utils.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...s.XtraBars.v18.2.resources.dll.1" Guid="f9d06b7e-ba14-4683-8c71-ee74343d5e52">
+                <File Id="_...s.XtraBars.v18.2.resources.dll.1" Source="PublishedFiles\es\DevExpress.XtraBars.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...traEditors.v18.2.resources.dll.1" Guid="f9d06b7e-ba14-4683-8c71-ee74fb9b3a8c">
+                <File Id="_...traEditors.v18.2.resources.dll.1" Source="PublishedFiles\es\DevExpress.XtraEditors.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...s.XtraGrid.v18.2.resources.dll.1" Guid="f9d06b7e-ba14-4683-8c71-ee74e37f6ec7">
+                <File Id="_...s.XtraGrid.v18.2.resources.dll.1" Source="PublishedFiles\es\DevExpress.XtraGrid.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...XtraLayout.v18.2.resources.dll.1" Guid="f9d06b7e-ba14-4683-8c71-ee7481e2ce06">
+                <File Id="_...XtraLayout.v18.2.resources.dll.1" Source="PublishedFiles\es\DevExpress.XtraLayout.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...raPrinting.v18.2.resources.dll.1" Guid="f9d06b7e-ba14-4683-8c71-ee748595e8e7">
+                <File Id="_...raPrinting.v18.2.resources.dll.1" Source="PublishedFiles\es\DevExpress.XtraPrinting.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...raTreeList.v18.2.resources.dll.1" Guid="f9d06b7e-ba14-4683-8c71-ee744b64780b">
+                <File Id="_...raTreeList.v18.2.resources.dll.1" Source="PublishedFiles\es\DevExpress.XtraTreeList.v18.2.resources.dll" />
+              </Component>
+
+            </Directory>
+
+            <Directory Id="INSTALLDIR.ja" Name="ja">
+
+              <Component Id="Component._...press.Data.v18.2.resources.dll.2" Guid="f9d06b7e-ba14-4683-8c71-ee7431edee6d">
+                <File Id="_...press.Data.v18.2.resources.dll.2" Source="PublishedFiles\ja\DevExpress.Data.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...ffice.v18.2.Core.resources.dll.2" Guid="f9d06b7e-ba14-4683-8c71-ee74f1cd98c0">
+                <File Id="_...ffice.v18.2.Core.resources.dll.2" Source="PublishedFiles\ja\DevExpress.Office.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...s.Pdf.v18.2.Core.resources.dll.2" Guid="f9d06b7e-ba14-4683-8c71-ee742c7db9d3">
+                <File Id="_...s.Pdf.v18.2.Core.resources.dll.2" Source="PublishedFiles\ja\DevExpress.Pdf.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...nting.v18.2.Core.resources.dll.2" Guid="f9d06b7e-ba14-4683-8c71-ee74c51b04fa">
+                <File Id="_...nting.v18.2.Core.resources.dll.2" Source="PublishedFiles\ja\DevExpress.Printing.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...hEdit.v18.2.Core.resources.dll.2" Guid="f9d06b7e-ba14-4683-8c71-ee743b1d9642">
+                <File Id="_...hEdit.v18.2.Core.resources.dll.2" Source="PublishedFiles\ja\DevExpress.RichEdit.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...kline.v18.2.Core.resources.dll.2" Guid="f9d06b7e-ba14-4683-8c71-ee7405dddc51">
+                <File Id="_...kline.v18.2.Core.resources.dll.2" Source="PublishedFiles\ja\DevExpress.Sparkline.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...ress.Utils.v18.2.resources.dll.2" Guid="f9d06b7e-ba14-4683-8c71-ee74f813234d">
+                <File Id="_...ress.Utils.v18.2.resources.dll.2" Source="PublishedFiles\ja\DevExpress.Utils.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...s.XtraBars.v18.2.resources.dll.2" Guid="f9d06b7e-ba14-4683-8c71-ee7434405e52">
+                <File Id="_...s.XtraBars.v18.2.resources.dll.2" Source="PublishedFiles\ja\DevExpress.XtraBars.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...traEditors.v18.2.resources.dll.2" Guid="f9d06b7e-ba14-4683-8c71-ee74fb983a8c">
+                <File Id="_...traEditors.v18.2.resources.dll.2" Source="PublishedFiles\ja\DevExpress.XtraEditors.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...s.XtraGrid.v18.2.resources.dll.2" Guid="f9d06b7e-ba14-4683-8c71-ee74e37e6ec7">
+                <File Id="_...s.XtraGrid.v18.2.resources.dll.2" Source="PublishedFiles\ja\DevExpress.XtraGrid.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...XtraLayout.v18.2.resources.dll.2" Guid="f9d06b7e-ba14-4683-8c71-ee7481e1ce06">
+                <File Id="_...XtraLayout.v18.2.resources.dll.2" Source="PublishedFiles\ja\DevExpress.XtraLayout.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...raPrinting.v18.2.resources.dll.2" Guid="f9d06b7e-ba14-4683-8c71-ee748592e8e7">
+                <File Id="_...raPrinting.v18.2.resources.dll.2" Source="PublishedFiles\ja\DevExpress.XtraPrinting.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...raTreeList.v18.2.resources.dll.2" Guid="f9d06b7e-ba14-4683-8c71-ee744b65780b">
+                <File Id="_...raTreeList.v18.2.resources.dll.2" Source="PublishedFiles\ja\DevExpress.XtraTreeList.v18.2.resources.dll" />
+              </Component>
+
+            </Directory>
+
+            <Directory Id="INSTALLDIR.ProgramData" Name="ProgramData">
+
+              <Component Id="Component.External_HematosAb.config" Guid="f9d06b7e-ba14-4683-8c71-ee7423d126c4">
+                <File Id="External_HematosAb.config" Source="PublishedFiles\ProgramData\External_HematosAb.config" />
+              </Component>
+
+              <Component Id="Component.HematosSiteCodes.xml" Guid="f9d06b7e-ba14-4683-8c71-ee74dab3521b">
+                <File Id="HematosSiteCodes.xml" Source="PublishedFiles\ProgramData\HematosSiteCodes.xml" />
+              </Component>
+
+            </Directory>
+
+            <Directory Id="INSTALLDIR.ru" Name="ru">
+
+              <Component Id="Component._...press.Data.v18.2.resources.dll.3" Guid="f9d06b7e-ba14-4683-8c71-ee7431ecee6d">
+                <File Id="_...press.Data.v18.2.resources.dll.3" Source="PublishedFiles\ru\DevExpress.Data.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...ffice.v18.2.Core.resources.dll.3" Guid="f9d06b7e-ba14-4683-8c71-ee74f1cc98c0">
+                <File Id="_...ffice.v18.2.Core.resources.dll.3" Source="PublishedFiles\ru\DevExpress.Office.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...s.Pdf.v18.2.Core.resources.dll.3" Guid="f9d06b7e-ba14-4683-8c71-ee742c7eb9d3">
+                <File Id="_...s.Pdf.v18.2.Core.resources.dll.3" Source="PublishedFiles\ru\DevExpress.Pdf.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...nting.v18.2.Core.resources.dll.3" Guid="f9d06b7e-ba14-4683-8c71-ee74c51c04fa">
+                <File Id="_...nting.v18.2.Core.resources.dll.3" Source="PublishedFiles\ru\DevExpress.Printing.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...hEdit.v18.2.Core.resources.dll.3" Guid="f9d06b7e-ba14-4683-8c71-ee743b1c9642">
+                <File Id="_...hEdit.v18.2.Core.resources.dll.3" Source="PublishedFiles\ru\DevExpress.RichEdit.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...kline.v18.2.Core.resources.dll.3" Guid="f9d06b7e-ba14-4683-8c71-ee7405dedc51">
+                <File Id="_...kline.v18.2.Core.resources.dll.3" Source="PublishedFiles\ru\DevExpress.Sparkline.v18.2.Core.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...ress.Utils.v18.2.resources.dll.3" Guid="f9d06b7e-ba14-4683-8c71-ee74f812234d">
+                <File Id="_...ress.Utils.v18.2.resources.dll.3" Source="PublishedFiles\ru\DevExpress.Utils.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...s.XtraBars.v18.2.resources.dll.3" Guid="f9d06b7e-ba14-4683-8c71-ee74343f5e52">
+                <File Id="_...s.XtraBars.v18.2.resources.dll.3" Source="PublishedFiles\ru\DevExpress.XtraBars.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...traEditors.v18.2.resources.dll.3" Guid="f9d06b7e-ba14-4683-8c71-ee74fb993a8c">
+                <File Id="_...traEditors.v18.2.resources.dll.3" Source="PublishedFiles\ru\DevExpress.XtraEditors.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...s.XtraGrid.v18.2.resources.dll.3" Guid="f9d06b7e-ba14-4683-8c71-ee74e37d6ec7">
+                <File Id="_...s.XtraGrid.v18.2.resources.dll.3" Source="PublishedFiles\ru\DevExpress.XtraGrid.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...XtraLayout.v18.2.resources.dll.3" Guid="f9d06b7e-ba14-4683-8c71-ee7481e0ce06">
+                <File Id="_...XtraLayout.v18.2.resources.dll.3" Source="PublishedFiles\ru\DevExpress.XtraLayout.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...raPrinting.v18.2.resources.dll.3" Guid="f9d06b7e-ba14-4683-8c71-ee748593e8e7">
+                <File Id="_...raPrinting.v18.2.resources.dll.3" Source="PublishedFiles\ru\DevExpress.XtraPrinting.v18.2.resources.dll" />
+              </Component>
+
+              <Component Id="Component._...raTreeList.v18.2.resources.dll.3" Guid="f9d06b7e-ba14-4683-8c71-ee744b66780b">
+                <File Id="_...raTreeList.v18.2.resources.dll.3" Source="PublishedFiles\ru\DevExpress.XtraTreeList.v18.2.resources.dll" />
+              </Component>
+
+            </Directory>
+
+            <Directory Id="INSTALLDIR.serology" Name="serology">
+
+              <Component Id="Component.Active_HLA_antibody.csv" Guid="f9d06b7e-ba14-4683-8c71-ee74e66356c7">
+                <File Id="Active_HLA_antibody.csv" Source="PublishedFiles\serology\Active HLA antibody.csv" />
+              </Component>
+
+            </Directory>
+
+            <Directory Id="INSTALLDIR.SQL_Scripts" Name="SQL Scripts">
+
+              <Component Id="Component.BaseSerologyFile.sql" Guid="f9d06b7e-ba14-4683-8c71-ee74b12241a7">
+                <File Id="BaseSerologyFile.sql" Source="PublishedFiles\SQL Scripts\BaseSerologyFile.sql" />
+              </Component>
+
+              <Component Id="Component.CheckTailHematosAb.sql" Guid="f9d06b7e-ba14-4683-8c71-ee740a39a10d">
+                <File Id="CheckTailHematosAb.sql" Source="PublishedFiles\SQL Scripts\CheckTailHematosAb.sql" />
+              </Component>
+
+              <Component Id="Component.GetBatchesHematosAb.sql" Guid="f9d06b7e-ba14-4683-8c71-ee74f16ac803">
+                <File Id="GetBatchesHematosAb.sql" Source="PublishedFiles\SQL Scripts\GetBatchesHematosAb.sql" />
+              </Component>
+
+              <Component Id="Component.GetExportedHematosAbData.sql" Guid="f9d06b7e-ba14-4683-8c71-ee7453eefa7b">
+                <File Id="GetExportedHematosAbData.sql" Source="PublishedFiles\SQL Scripts\GetExportedHematosAbData.sql" />
+              </Component>
+
+              <Component Id="Component.GetHematosSiteCodes.sql" Guid="f9d06b7e-ba14-4683-8c71-ee7417e8d275">
+                <File Id="GetHematosSiteCodes.sql" Source="PublishedFiles\SQL Scripts\GetHematosSiteCodes.sql" />
+              </Component>
+
+              <Component Id="Component.GetLotsHematosAb.sql" Guid="f9d06b7e-ba14-4683-8c71-ee7472ad78c2">
+                <File Id="GetLotsHematosAb.sql" Source="PublishedFiles\SQL Scripts\GetLotsHematosAb.sql" />
+              </Component>
+
+              <Component Id="Component.GetLumInfoHematosAb.sql" Guid="f9d06b7e-ba14-4683-8c71-ee74a0cbabd2">
+                <File Id="GetLumInfoHematosAb.sql" Source="PublishedFiles\SQL Scripts\GetLumInfoHematosAb.sql" />
+              </Component>
+
+              <Component Id="Component.GetSampleInfo_IDHematosAb.sql" Guid="f9d06b7e-ba14-4683-8c71-ee740e4a334a">
+                <File Id="GetSampleInfo_IDHematosAb.sql" Source="PublishedFiles\SQL Scripts\GetSampleInfo_IDHematosAb.sql" />
+              </Component>
+
+              <Component Id="Component.GetSampleInfo_LMXHematosAb.sql" Guid="f9d06b7e-ba14-4683-8c71-ee7479717599">
+                <File Id="GetSampleInfo_LMXHematosAb.sql" Source="PublishedFiles\SQL Scripts\GetSampleInfo_LMXHematosAb.sql" />
+              </Component>
+
+              <Component Id="Component.GetSampleInfo_SAHematosAb.sql" Guid="f9d06b7e-ba14-4683-8c71-ee74ccb25efe">
+                <File Id="GetSampleInfo_SAHematosAb.sql" Source="PublishedFiles\SQL Scripts\GetSampleInfo_SAHematosAb.sql" />
+              </Component>
+
+              <Component Id="Component.GetSamplesHematosAb.sql" Guid="f9d06b7e-ba14-4683-8c71-ee746cc98882">
+                <File Id="GetSamplesHematosAb.sql" Source="PublishedFiles\SQL Scripts\GetSamplesHematosAb.sql" />
+              </Component>
+
+              <Component Id="Component.GetUserNameHematosAb.sql" Guid="f9d06b7e-ba14-4683-8c71-ee74f5411c30">
+                <File Id="GetUserNameHematosAb.sql" Source="PublishedFiles\SQL Scripts\GetUserNameHematosAb.sql" />
+              </Component>
+
+              <Component Id="Component.InsertHematosABData.sql" Guid="f9d06b7e-ba14-4683-8c71-ee745cd5c1fd">
+                <File Id="InsertHematosABData.sql" Source="PublishedFiles\SQL Scripts\InsertHematosABData.sql" />
+              </Component>
+
+              <Component Id="Component.tbHematosAbClassCodes.sql" Guid="f9d06b7e-ba14-4683-8c71-ee7411aaaff3">
+                <File Id="tbHematosAbClassCodes.sql" Source="PublishedFiles\SQL Scripts\tbHematosAbClassCodes.sql" />
+              </Component>
+
+              <Component Id="Component.tbHematosABExportHistory.sql" Guid="f9d06b7e-ba14-4683-8c71-ee74f12e0de8">
+                <File Id="tbHematosABExportHistory.sql" Source="PublishedFiles\SQL Scripts\tbHematosABExportHistory.sql" />
+              </Component>
+
+              <Component Id="Component.tbHematosABSiteCodes.sql" Guid="f9d06b7e-ba14-4683-8c71-ee7475df9f2d">
+                <File Id="tbHematosABSiteCodes.sql" Source="PublishedFiles\SQL Scripts\tbHematosABSiteCodes.sql" />
+              </Component>
+
+              <Component Id="Component._...bHematosABTestingKitsCodes.sql" Guid="f9d06b7e-ba14-4683-8c71-ee74a656ee2d">
+                <File Id="_...bHematosABTestingKitsCodes.sql" Source="PublishedFiles\SQL Scripts\tbHematosABTestingKitsCodes.sql" />
+              </Component>
+
+              <Component Id="Component.tbHematosABTestMethodCodes.sql" Guid="f9d06b7e-ba14-4683-8c71-ee748da53689">
+                <File Id="tbHematosABTestMethodCodes.sql" Source="PublishedFiles\SQL Scripts\tbHematosABTestMethodCodes.sql" />
+              </Component>
+
+              <Component Id="Component.UpdateHematosABData.sql" Guid="f9d06b7e-ba14-4683-8c71-ee746215c704">
+                <File Id="UpdateHematosABData.sql" Source="PublishedFiles\SQL Scripts\UpdateHematosABData.sql" />
+              </Component>
+
+              <Component Id="Component.UpdateScript.sql" Guid="f9d06b7e-ba14-4683-8c71-ee745b6725d8">
+                <File Id="UpdateScript.sql" Source="PublishedFiles\SQL Scripts\UpdateScript.sql" />
+              </Component>
+
+            </Directory>
+          </Directory>
+        </Directory>
+      </Directory>
+
+      <Directory Id="CommonAppDataFolder" Name="CommonAppDataFolder">
+        <Directory Id="CommonAppDataFolder.LIFECODES" Name="LIFECODES">
+
+          <Component Id="Component.External_HematosAb.config.1" Guid="f9d06b7e-ba14-4683-8c71-ee742754b1e6">
+            <File Id="External_HematosAb.config.1" Source="PublishedFiles\ProgramData\External_HematosAb.config" />
+          </Component>
+
+          <Component Id="Component.HematosSiteCodes.xml.1" Guid="f9d06b7e-ba14-4683-8c71-ee74e28fb503">
+            <File Id="HematosSiteCodes.xml.1" Source="PublishedFiles\ProgramData\HematosSiteCodes.xml" />
+          </Component>
+
+        </Directory>
+      </Directory>
+
+      <Directory Id="ProgramMenuFolder" Name="ProgramMenuFolder">
+        <Directory Id="ProgramMenuFolder.Lifecodes" Name="Lifecodes">
+
+          <Component Id="Lifecodes.EmptyDirectory" Guid="f9d06b7e-ba14-4683-8c71-ee747f4a3ce0">
+            <CreateFolder />
+            <RemoveFolder Id="ProgramMenuFolder.Lifecodes" On="uninstall" />
+
+            <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+              <RegistryValue Value="0" Type="string" KeyPath="yes" />
+            </RegistryKey>
+          </Component>
+
+        </Directory>
+      </Directory>
+
+      <Directory Id="DesktopFolder" Name="DesktopFolder">
+
+        <Component Id="DesktopFolder.EmptyDirectory" Guid="f9d06b7e-ba14-4683-8c71-ee742294e9ef">
+          <CreateFolder />
+
+          <RegistryKey Root="HKCU" Key="Software\WixSharp\Used">
+            <RegistryValue Value="0" Type="string" KeyPath="yes" />
+          </RegistryKey>
+        </Component>
+
+      </Directory>
+
+      <Component Id="TARGETDIR" Guid="f9d06b7e-ba14-4683-8c71-ee74b77d81f8" KeyPath="yes">
+        <CreateFolder />
+        <RemoveFolder Id="TARGETDIR" On="uninstall" />
+      </Component>
+
+    </Directory>
+
+    <Upgrade Id="b522a782-e684-486a-be2e-612e73b8abfd">
+      <UpgradeVersion Minimum="0.0.0.0" Maximum="1.6.0" IncludeMinimum="yes" IncludeMaximum="no" Property="UPGRADEFOUND" />
+      <UpgradeVersion Minimum="1.6.0" IncludeMinimum="no" Property="NEWPRODUCTFOUND" />
+    </Upgrade>
+
+    <CustomAction Id="PreventDowngrading" Error="Newer version already installed" />
+
+    <Property Id="Shortcut._...T__Antibody_Hematos_Export.exe._...H_IT__Antibody_Hematos_Utility.WorkDir" Value="[ProgramFilesFolder]\LIFECODES\MATCH IT! Antibody Hematos Utility" />
+    <Property Id="Shortcut._...T__Antibody_Hematos_Export.exe._...H_IT__Antibody_Hematos_Utility.1.WorkDir" Value="[ProgramFilesFolder]\LIFECODES\MATCH IT! Antibody Hematos Utility" />
+
+    <Feature Id="Complete" Title="Complete" Absent="allow" Level="1">
+      <ComponentRef Id="Component._...evExpress.BonusSkins.v19.2.dll" />
+      <ComponentRef Id="Component.DevExpress.Data.v19.2.dll" />
+      <ComponentRef Id="Component.DevExpress.Images.v19.2.dll" />
+      <ComponentRef Id="Component._...vExpress.Office.v19.2.Core.dll" />
+      <ComponentRef Id="Component.DevExpress.Pdf.v19.2.Core.dll" />
+      <ComponentRef Id="Component._...xpress.Printing.v19.2.Core.dll" />
+      <ComponentRef Id="Component._...xpress.RichEdit.v19.2.Core.dll" />
+      <ComponentRef Id="Component._...ress.RichEdit.v19.2.Export.dll" />
+      <ComponentRef Id="Component._...press.Sparkline.v19.2.Core.dll" />
+      <ComponentRef Id="Component.DevExpress.Utils.v19.2.dll" />
+      <ComponentRef Id="Component.DevExpress.XtraBars.v19.2.dll" />
+      <ComponentRef Id="Component._...vExpress.XtraEditors.v19.2.dll" />
+      <ComponentRef Id="Component.DevExpress.XtraGrid.v19.2.dll" />
+      <ComponentRef Id="Component._...evExpress.XtraLayout.v19.2.dll" />
+      <ComponentRef Id="Component._...Express.XtraPrinting.v19.2.dll" />
+      <ComponentRef Id="Component._...Express.XtraTreeList.v19.2.dll" />
+      <ComponentRef Id="Component.HematosBO.dll" />
+      <ComponentRef Id="Component.HematosDAL.dll" />
+      <ComponentRef Id="Component.HematosDBFacade.dll" />
+      <ComponentRef Id="Component.HematosPresenter.dll" />
+      <ComponentRef Id="Component.HematosViewModel.dll" />
+      <ComponentRef Id="Component.LumenWorks.Framework.IO.dll" />
+      <ComponentRef Id="Component._...T__Antibody_Hematos_Export.exe" />
+      <ComponentRef Id="Component._...body_Hematos_Export.exe.config" />
+      <ComponentRef Id="Component._...s.EnterpriseLibrary.Common.dll" />
+      <ComponentRef Id="Component._...ces.EnterpriseLibrary.Data.dll" />
+      <ComponentRef Id="Component._...eLibrary.ExceptionHandling.dll" />
+      <ComponentRef Id="Component._....ExceptionHandling.Logging.dll" />
+      <ComponentRef Id="Component._....EnterpriseLibrary.Logging.dll" />
+      <ComponentRef Id="Component._....Practices.ServiceLocation.dll" />
+      <ComponentRef Id="Component.Microsoft.Practices.Unity.dll" />
+      <ComponentRef Id="Component._...actices.Unity.Interception.dll" />
+      <ComponentRef Id="Component._...soft.sqlserver.batchparser.dll" />
+      <ComponentRef Id="Component._...qlServer.BatchParserClient.dll" />
+      <ComponentRef Id="Component._...t.SqlServer.ConnectionInfo.dll" />
+      <ComponentRef Id="Component.Microsoft.SqlServer.Dmf.dll" />
+      <ComponentRef Id="Component._...lServer.Management.Sdk.Sfc.dll" />
+      <ComponentRef Id="Component._...qlServer.ServiceBrokerEnum.dll" />
+      <ComponentRef Id="Component.Microsoft.SqlServer.Smo.dll" />
+      <ComponentRef Id="Component._...t.SqlServer.SqlClrProvider.dll" />
+      <ComponentRef Id="Component._...icrosoft.SqlServer.SqlEnum.dll" />
+      <ComponentRef Id="Component._...onentModel.DataAnnotations.dll" />
+      <ComponentRef Id="Component._...press.Data.v18.2.resources.dll" />
+      <ComponentRef Id="Component._...ffice.v18.2.Core.resources.dll" />
+      <ComponentRef Id="Component._...s.Pdf.v18.2.Core.resources.dll" />
+      <ComponentRef Id="Component._...nting.v18.2.Core.resources.dll" />
+      <ComponentRef Id="Component._...hEdit.v18.2.Core.resources.dll" />
+      <ComponentRef Id="Component._...kline.v18.2.Core.resources.dll" />
+      <ComponentRef Id="Component._...ress.Utils.v18.2.resources.dll" />
+      <ComponentRef Id="Component._...s.XtraBars.v18.2.resources.dll" />
+      <ComponentRef Id="Component._...traEditors.v18.2.resources.dll" />
+      <ComponentRef Id="Component._...s.XtraGrid.v18.2.resources.dll" />
+      <ComponentRef Id="Component._...XtraLayout.v18.2.resources.dll" />
+      <ComponentRef Id="Component._...raPrinting.v18.2.resources.dll" />
+      <ComponentRef Id="Component._...raTreeList.v18.2.resources.dll" />
+      <ComponentRef Id="Component._...press.Data.v18.2.resources.dll.1" />
+      <ComponentRef Id="Component._...ffice.v18.2.Core.resources.dll.1" />
+      <ComponentRef Id="Component._...s.Pdf.v18.2.Core.resources.dll.1" />
+      <ComponentRef Id="Component._...nting.v18.2.Core.resources.dll.1" />
+      <ComponentRef Id="Component._...hEdit.v18.2.Core.resources.dll.1" />
+      <ComponentRef Id="Component._...kline.v18.2.Core.resources.dll.1" />
+      <ComponentRef Id="Component._...ress.Utils.v18.2.resources.dll.1" />
+      <ComponentRef Id="Component._...s.XtraBars.v18.2.resources.dll.1" />
+      <ComponentRef Id="Component._...traEditors.v18.2.resources.dll.1" />
+      <ComponentRef Id="Component._...s.XtraGrid.v18.2.resources.dll.1" />
+      <ComponentRef Id="Component._...XtraLayout.v18.2.resources.dll.1" />
+      <ComponentRef Id="Component._...raPrinting.v18.2.resources.dll.1" />
+      <ComponentRef Id="Component._...raTreeList.v18.2.resources.dll.1" />
+      <ComponentRef Id="Component._...press.Data.v18.2.resources.dll.2" />
+      <ComponentRef Id="Component._...ffice.v18.2.Core.resources.dll.2" />
+      <ComponentRef Id="Component._...s.Pdf.v18.2.Core.resources.dll.2" />
+      <ComponentRef Id="Component._...nting.v18.2.Core.resources.dll.2" />
+      <ComponentRef Id="Component._...hEdit.v18.2.Core.resources.dll.2" />
+      <ComponentRef Id="Component._...kline.v18.2.Core.resources.dll.2" />
+      <ComponentRef Id="Component._...ress.Utils.v18.2.resources.dll.2" />
+      <ComponentRef Id="Component._...s.XtraBars.v18.2.resources.dll.2" />
+      <ComponentRef Id="Component._...traEditors.v18.2.resources.dll.2" />
+      <ComponentRef Id="Component._...s.XtraGrid.v18.2.resources.dll.2" />
+      <ComponentRef Id="Component._...XtraLayout.v18.2.resources.dll.2" />
+      <ComponentRef Id="Component._...raPrinting.v18.2.resources.dll.2" />
+      <ComponentRef Id="Component._...raTreeList.v18.2.resources.dll.2" />
+      <ComponentRef Id="Component.External_HematosAb.config" />
+      <ComponentRef Id="Component.HematosSiteCodes.xml" />
+      <ComponentRef Id="Component._...press.Data.v18.2.resources.dll.3" />
+      <ComponentRef Id="Component._...ffice.v18.2.Core.resources.dll.3" />
+      <ComponentRef Id="Component._...s.Pdf.v18.2.Core.resources.dll.3" />
+      <ComponentRef Id="Component._...nting.v18.2.Core.resources.dll.3" />
+      <ComponentRef Id="Component._...hEdit.v18.2.Core.resources.dll.3" />
+      <ComponentRef Id="Component._...kline.v18.2.Core.resources.dll.3" />
+      <ComponentRef Id="Component._...ress.Utils.v18.2.resources.dll.3" />
+      <ComponentRef Id="Component._...s.XtraBars.v18.2.resources.dll.3" />
+      <ComponentRef Id="Component._...traEditors.v18.2.resources.dll.3" />
+      <ComponentRef Id="Component._...s.XtraGrid.v18.2.resources.dll.3" />
+      <ComponentRef Id="Component._...XtraLayout.v18.2.resources.dll.3" />
+      <ComponentRef Id="Component._...raPrinting.v18.2.resources.dll.3" />
+      <ComponentRef Id="Component._...raTreeList.v18.2.resources.dll.3" />
+      <ComponentRef Id="Component.Active_HLA_antibody.csv" />
+      <ComponentRef Id="Component.BaseSerologyFile.sql" />
+      <ComponentRef Id="Component.CheckTailHematosAb.sql" />
+      <ComponentRef Id="Component.GetBatchesHematosAb.sql" />
+      <ComponentRef Id="Component.GetExportedHematosAbData.sql" />
+      <ComponentRef Id="Component.GetHematosSiteCodes.sql" />
+      <ComponentRef Id="Component.GetLotsHematosAb.sql" />
+      <ComponentRef Id="Component.GetLumInfoHematosAb.sql" />
+      <ComponentRef Id="Component.GetSampleInfo_IDHematosAb.sql" />
+      <ComponentRef Id="Component.GetSampleInfo_LMXHematosAb.sql" />
+      <ComponentRef Id="Component.GetSampleInfo_SAHematosAb.sql" />
+      <ComponentRef Id="Component.GetSamplesHematosAb.sql" />
+      <ComponentRef Id="Component.GetUserNameHematosAb.sql" />
+      <ComponentRef Id="Component.InsertHematosABData.sql" />
+      <ComponentRef Id="Component.tbHematosAbClassCodes.sql" />
+      <ComponentRef Id="Component.tbHematosABExportHistory.sql" />
+      <ComponentRef Id="Component.tbHematosABSiteCodes.sql" />
+      <ComponentRef Id="Component._...bHematosABTestingKitsCodes.sql" />
+      <ComponentRef Id="Component.tbHematosABTestMethodCodes.sql" />
+      <ComponentRef Id="Component.UpdateHematosABData.sql" />
+      <ComponentRef Id="Component.UpdateScript.sql" />
+      <ComponentRef Id="Component.External_HematosAb.config.1" />
+      <ComponentRef Id="Component.HematosSiteCodes.xml.1" />
+      <ComponentRef Id="Lifecodes.EmptyDirectory" />
+      <ComponentRef Id="DesktopFolder.EmptyDirectory" />
+      <ComponentRef Id="TARGETDIR" />
+    </Feature>
+
+    <InstallExecuteSequence>
+      <Custom Action="PreventDowngrading" After="FindRelatedProducts">NEWPRODUCTFOUND</Custom>
+
+      <RemoveExistingProducts After="InstallFinalize" />
+    </InstallExecuteSequence>
+
+    <InstallUISequence>
+      <Custom Action="PreventDowngrading" After="FindRelatedProducts">NEWPRODUCTFOUND</Custom>
+    </InstallUISequence>
+
+  </Product>
+</Wix>
+
